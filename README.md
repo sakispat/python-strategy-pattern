@@ -9,6 +9,6 @@ finally display the result.
 
 ```bash
     docker-compose build && docker-compose up -d
-    docker exec -it python_pattern /bin/bash
+    docker exec -it <container_id> /bin/bash
     ./init.sh
 ```
